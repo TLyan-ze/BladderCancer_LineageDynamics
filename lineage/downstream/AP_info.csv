@@ -1,0 +1,7 @@
+Data_Inject,Date_Sac,Aging_day,Cell_Clone,Genotype,MouseID,Aging_Month,Batch_Library,Batch_Harvest,Tumor_Name,Sample_Name,Tumor_combined,Multi_BC,10x_Lane,,,,
+3/8/22,6/14/22,98,C1,MIBC,M-1,3,,,MI,MI_M,MI_MGH,CGCTAGAG,L1,,,,
+3/8/22,6/14/22,98,C1,Met,M-1,3,,,Met,Met_M,Met_MGH,ACGCGTTA,L3,,,,
+3/8/22,6/14/22,98,C1,NMIBC,M-12,3,,,NMI,NMI_M,NMI_MGH,AGGGCTAC,L3,,,,
+3/8/22,5/7/22,60,C1,NMIBC,M-3,2,,,MC,CTR_M,CTR_MGH,TCGTAGTG,L2,,,,
+3/16/22,5/18/22,63,C2,NMIBC,R-1,2,,,RC,CTR_RT,CTR_RT,CATGTTAC,L4,,,,
+3/16/22,6/21/22,97,C2,NMIBC,R-10,3,,,RTG,NMI_RT,GEM_RT,TGATCCAC,L4,,,,

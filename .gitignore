@@ -1,0 +1,25 @@
+# Ignore outputs and large intermediates
+results/
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.bai
+*.sam
+*.h5
+*.h5ad
+*.mtx
+*.loom
+*.bw
+*.bigWig
+*.vcf
+*.vcf.gz
+*.bcf
+*.bcf.gz
+*.idx
+*.tbi
+*.log
+*.tmp
+*.cache
+.DS_Store
