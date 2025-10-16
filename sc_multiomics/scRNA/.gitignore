@@ -1,0 +1,12 @@
+# 忽略大结果文件与中间产物
+*.h5ad
+*.h5seurat
+matrix.mtx
+barcodes.tsv
+genes.tsv
+plot_*/
+*.Rplots.pdf
+*.ipynb_checkpoints/
+__pycache__/
+results/
+output/

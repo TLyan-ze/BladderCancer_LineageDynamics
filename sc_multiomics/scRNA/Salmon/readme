@@ -1,2 +1,0 @@
-cat sample1|while read l1; do fq1=`ls /datapool/yanzeqin/project/ZDW/RNA/MI-hIGFBP5/00.CleanData/$l1/${l1}_1.clean.fq.gz`;fq2=`ls /datapool/yanzeqin/project/ZDW/RNA/MI-hIGFBP5/00.CleanData/$l1/${l1}_2.clean.fq.gz`; echo -e "$l1\t$l1\t$fq1\t$fq2";done
-cat sample2|while read l1; do fq1=`ls /datapool/yanzeqin/project/ZDW/RNA/MI-2nd/00.CleanData/$l1/${l1}_1.clean.fq.gz`;fq2=`ls /datapool/yanzeqin/project/ZDW/RNA/MI-2nd/00.CleanData/$l1/${l1}_2.clean.fq.gz`; echo -e "$l1\t$l1\t$fq1\t$fq2";done
