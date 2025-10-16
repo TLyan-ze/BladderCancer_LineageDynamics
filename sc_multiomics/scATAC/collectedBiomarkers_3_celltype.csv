@@ -1,0 +1,168 @@
+tissueType,UberonOntologyID,cancerType,cellType,cellName,CellOntologyID,cellMarker,geneSymbol,geneID,proteinName,proteinID,markerResource,PMID,Company
+Blood,UBERON_0000178,Normal,Normal cell,T cell,CL_0000084,CD3,"CD3D, CD3E, CD3G","915, 916, 917","CD3D, CD3E, CD3G","P04234, P07766, P09693",Experiment,25254006,NA
+Blood,UBERON_0000178,Normal,Normal cell,T cell,CL_0000084,"CD3, CD8","CD3D, CD3E, CD3G, CD8A","915, 916, 917, 925","CD3D, CD3E, CD3G, CD8A","P04234, P07766, P09693, P01732",Experiment,23688120,NA
+Blood,UBERON_0000178,Normal,Normal cell,T cell,CL_0000084,T-MICG,NA,NA,NA,NA,Experiment,84041,NA
+Blood,UBERON_0000178,Normal,Normal cell,T cell,CL_0000084,CD3,"CD3D, CD3E, CD3G","915, 916, 917","CD3D, CD3E, CD3G","P04234, P07766, P09693",Experiment,21149806,NA
+Blood,UBERON_0000178,Normal,Normal cell,T cell,CL_0000084,CD3,"CD3D, CD3E, CD3G","915, 916, 917","CD3D, CD3E, CD3G","P04234, P07766, P09693",Experiment,1534551,NA
+Blood,UBERON_0000178,Normal,Normal cell,T cell,CL_0000084,UCHL1,UCHL1,7345,UCHL1,P09936,Experiment,1701954,NA
+Peripheral blood,UBERON_0005408,Normal,Normal cell,T cell,CL_0000084,"CCR7, CD127, CD25, CD27, CD272, CD28, CD3, CD4, CD45RA, CD45RO, CD62L, CD8, CTLA4, PD-1, TIM3","CCR7, IL7R, IL2RA, CD27, BTLA, CD28, CD3D, CD3E, CD3G, CD4, PTPRC, PTPRC, SELL, CD8A, CTLA4, PDCD1, HAVCR2","1236, 3575, 3559, 939, 151888, 940, 915, 916, 917, 920, 5788, 5788, 6402, 925, 1493, 5133, 84868","CCR7, IL7RA, IL2RA, CD27, BTLA, CD28, CD3D, CD3E, CD3G, CD4, PTPRC, PTPRC, LYAM1, CD8A, CTLA4, RL17, HAVR2","P32248, P16871, P01589, P26842, Q7Z6A9, P10747, P04234, P07766, P09693, P01730, PTPRC, PTPRC, P14151, P01732, P16410, P18621, Q8TDQ0",Experiment,25799053,NA
+Peripheral blood,UBERON_0005408,Normal,Normal cell,T cell,CL_0000084,CD3,"CD3D, CD3E, CD3G","915, 916, 917","CD3D, CD3E, CD3G","P04234, P07766, P09693",Experiment,16836616,NA
+Peripheral blood,UBERON_0005408,Normal,Normal cell,T cell,CL_0000084,"CD27, CD28, CD3D, CD3E, CD3G","CD27, CD28, CD3D, CD3E, CD3G","939, 940, 915, 916, 917","CD27, CD28, CD3D, CD3E, CD3G","P26842, P10747, P04234, P07766, P09693",Single-cell sequencing,29230012,NA
+Undefined,NA,Normal,Normal cell,T cell,CL_0000084,CD150,SLAMF1,6504,SLAF1,Q13291,Experiment,25170899,NA
+Undefined,NA,Normal,Normal cell,T cell,CL_0000084,Dipeptidyl peptidase 4,DPP4,1803,DPP4,P27487,Experiment,6386188,NA
+Undefined,NA,Normal,Normal cell,T cell,CL_0000084,"CD2, CD7","CD2, CD7","914, 924","CD2, CD7","P08920, P09564",Experiment,8162087,NA
+Undefined,NA,Normal,Normal cell,T cell,CL_0000084,CD3,"CD3D, CD3E, CD3G","915, 916, 917","CD3D, CD3E, CD3G","P04234, P07766, P09693",Experiment,22484020,NA
+Blood,UBERON_0000178,Normal,Normal cell,Dendritic cell,CL_0000451,CLEC9A,CLEC9A,283420,CLC9A,Q6UXN8,Experiment,18669894,NA
+Blood,UBERON_0000178,Normal,Normal cell,Dendritic cell,CL_0000451,CD83,CD83,9308,CD83,Q01151,Experiment,9091299,NA
+Blood,UBERON_0000178,Normal,Normal cell,Dendritic cell,CL_0000451,CD83,CD83,9308,CD83,Q01151,Experiment,7706722,NA
+Peripheral blood,UBERON_0005408,Normal,Normal cell,Dendritic cell,CL_0000451,CD83,CD83,9308,CD83,Q01151,Experiment,29112895,NA
+Peripheral blood,UBERON_0005408,Normal,Normal cell,Dendritic cell,CL_0000451,"CD83, CD86, MHC class II","CD83, CD86, MHC class II","9308, 942, MHC class II","CD83, CD86, MHC class II","Q01151, P42081, MHC class II",Experiment,22994596,NA
+Peripheral blood,UBERON_0005408,Normal,Normal cell,Dendritic cell,CL_0000451,"CD80, CD86","CD80, CD86","941, 942","CD80, CD86","P33681, P42081",Experiment,22613597,NA
+Peripheral blood,UBERON_0005408,Normal,Normal cell,Dendritic cell,CL_0000451,CD11c,ITGAX,3687,ITAX,P20702,Experiment,16783164,NA
+Peripheral blood,UBERON_0005408,Normal,Normal cell,Dendritic cell,CL_0000451,"CLEC4C, IL3RA, NRP1","CLEC4C, IL3RA, NRP1","170482, 3563, 8829","CLC4C, IL3RA, NRP1","Q8WTT0, P26951, O14786",Single-cell sequencing,29230012,NA
+Undefined,NA,Normal,Normal cell,Dendritic cell,CL_0000451,CD150,SLAMF1,6504,SLAF1,Q13291,Experiment,25170899,NA
+Undefined,NA,Normal,Normal cell,Dendritic cell,CL_0000451,"CD80, CD86, MHC class II","CD80, CD86, MHC class II","941, 942, MHC class II","CD80, CD86, MHC class II","P33681, P42081, MHC class II",Experiment,21773750,NA
+Undefined,NA,Normal,Normal cell,Dendritic cell,CL_0000451,CD11c,ITGAX,3687,ITAX,P20702,Experiment,28338898,NA
+Peripheral blood,UBERON_0005408,Normal,Normal cell,Fibroblast,CL_0000057,"COL1A1, COL3A1, FAP, THY1","COL1A1, COL3A1, FAP, THY1","1277, 1281, 2191, 7070","CO1A1, CO3A1, SEPR, THY1","P02452, P02461, Q12884, P04216",Single-cell sequencing,29230012,NA
+Undefined,NA,Normal,Normal cell,Fibroblast,CL_0000057,"CD105, CD11b, CD19, CD34, CD44, CD45, CD73, CD90, HLA-DR","ENG, ITGAM, CD19, CD34, CD44, PTPRC, NT5E, THY1, HLA-DR family","2022, 3684, 930, 947, 960, 5788, 4907, 7070, HLA-DR family","EGLN, ITAM, CD19, CD34, CD44, PTPRC, 5NTD, THY1, HLA-DR family","P17813, P11215, P15391, P28906, P16070, P08575, P21589, P04216, HLA-DR family",Experiment,25112013,NA
+Undefined,NA,Normal,Normal cell,Myofibroblast,CL_0000186,alpha-SMA,ACTA2,59,ACTA,P62736,Experiment,29654633,NA
+Undefined,NA,Normal,Normal cell,Myofibroblast,CL_0000186,alpha-SMA,ACTA2,59,ACTA,P62736,Experiment,17433115,NA
+Prostate,UBERON_0002367,Normal,Normal cell,Basal cell,CL_0000646,TSC-22,TSC-22 family,TSC-22 family,TSC-22 family,TSC-22 family,Experiment,16106424,NA
+Prostate,UBERON_0002367,Normal,Normal cell,Basal cell,CL_0000646,P63,TP63,8626,P63,Q9H3D4,Experiment,11106548,NA
+Prostate,UBERON_0002367,Normal,Normal cell,Basal cell,CL_0000646,P63,TP63,8626,P63,Q9H3D4,Experiment,25429340,NA
+Prostate,UBERON_0002367,Normal,Normal cell,Basal cell,CL_0000646,Calcyclin,S100A6,6277,S10A6,P06703,Experiment,15280928,NA
+Prostate,UBERON_0002367,Normal,Normal cell,Basal cell,CL_0000646,Keratin-5,KRT5,3852,K2C5,P13647,Experiment,29422309,NA
+Prostate,UBERON_0002367,Normal,Normal cell,Basal cell,CL_0000646,P63,TP63,8626,P63,Q9H3D4,Experiment,23112115,NA
+Prostate,UBERON_0002367,Normal,Normal cell,Basal cell,CL_0000646,P63,TP63,8626,P63,Q9H3D4,Experiment,22325142,NA
+Prostate,UBERON_0002367,Normal,Normal cell,Basal cell,CL_0000646,P63,TP63,8626,P63,Q9H3D4,Experiment,21623182,NA
+Prostate,UBERON_0002367,Normal,Normal cell,Basal cell,CL_0000646,P63,TP63,8626,P63,Q9H3D4,Experiment,20363913,NA
+Prostate,UBERON_0002367,Normal,Normal cell,Basal cell,CL_0000646,TEAD1,TEAD1,7003,TEAD1,P28347,Experiment,19002168,NA
+Prostate,UBERON_0002367,Normal,Normal cell,Basal cell,CL_0000646,"HMWCK, P63","NA, TP63","NA, 8626","NA, P63","NA, Q9H3D4",Experiment,17527076,NA
+Prostate,UBERON_0002367,Normal,Normal cell,Basal cell,CL_0000646,"HMWCK, P63","NA, TP63","NA, 8626","NA, P63","NA, Q9H3D4",Experiment,17440968,NA
+Prostate,UBERON_0002367,Normal,Normal cell,Basal cell,CL_0000646,Keratin-5,KRT5,3852,K2C5,P13647,Experiment,15280928,NA
+Prostate,UBERON_0002367,Normal,Normal cell,Basal cell,CL_0000646,P63,TP63,8626,P63,Q9H3D4,Experiment,12218572,NA
+Prostate,UBERON_0002367,Normal,Normal cell,Basal cell,CL_0000646,"Keratin-5, P63","KRT5, TP63","3852, 8626","K2C5, P63","P13647, Q9H3D4",Experiment,12037666,NA
+Prostate,UBERON_0002367,Normal,Normal cell,Basal cell,CL_0000646,"Keratin-14, Keratin-5, P63","KRT14, KRT5, TP63","3861, 3852, 8626","K1C14, K2C5, P63","P02533, P13647, Q9H3D4",Experiment,11776479,NA
+Prostate,UBERON_0002367,Normal,Normal cell,Epithelial cell,CL_0000066,E-Cadherin,CDH1,999,CADH1,P12830,Experiment,29108245,NA
+Prostate,UBERON_0002367,Normal,Normal cell,Epithelial cell,CL_0000066,E-Cadherin,CDH1,999,CADH1,P12830,Experiment,25606577,NA
+Prostate,UBERON_0002367,Normal,Normal cell,Epithelial cell,CL_0000066,E-Cadherin,CDH1,999,CADH1,P12830,Experiment,22006308,NA
+Prostate,UBERON_0002367,Normal,Normal cell,Epithelial cell,CL_0000066,"Androgen receptor, Cytokeratin-8, Cytokeratin-18, P63","AR, KRT8, KRT18, TP63","367, 3856, 3875, 8626","ANDR, K2C8, K1C18, P63","P10275, P05787, P05783, Q9H3D4",Experiment,21427218,NA
+Prostate,UBERON_0002367,Normal,Normal cell,Luminal cell,NA,CAM 5.2,KRT8,3856,K2C8,P05787,Experiment,11442667,NA
+Prostate,UBERON_0002367,Normal,Normal cell,Luminal cell,NA,Cytokeratin-18,KRT18,3875,K1C18,P05783,Experiment,24672777,NA
+Prostate,UBERON_0002367,Normal,Normal cell,Luminal cell,NA,"Androgen receptor, Cytokeratin-8, Cytokeratin-18","AR, KRT8, KRT18","367, 3856, 3875","ANDR, K2C8, K1C18","P10275, P05787, P05783",Experiment,18055450,NA
+Prostate,UBERON_0002367,Normal,Normal cell,Luminal cell,NA,Cytokeratin-18,KRT8,3856,K2C8,P05787,Experiment,15187231,NA
+Prostate,UBERON_0002367,Normal,Normal cell,Luminal cell,NA,"Cytokeratin-18, Cytokeratin-8","KRT18, KRT8","3875, 3856","K1C18, K2C8","P05783, P05787",Experiment,1370816,NA
+Blood,UBERON_0000178,Normal,Normal cell,B cell,CL_0000236,"AID, CD10, CD257, CD28, CD38, CD71, CD86","AICDA, MME, TNFSF13B, CD28, CD38, TFRC, CD86","57379, 4311, 10673, 940, 952, 7037, 942","AICDA, NEP, TN13B, CD28, CD38, TFR1, CD86","Q9GZX7, P08473, Q9Y275, P10747, P28907, P02786, P42081",Experiment,23722608,NA
+Blood,UBERON_0000178,Normal,Normal cell,B cell,CL_0000236,CD20,MS4A1,931,CD20,P11836,Experiment,25254006,NA
+Blood,UBERON_0000178,Normal,Normal cell,B cell,CL_0000236,CD19,CD19,930,CD19,P15391,Experiment,23688120,NA
+Blood,UBERON_0000178,Normal,Normal cell,B cell,CL_0000236,FMC7,MS4A1,931,CD20,P11836,Experiment,6970772,NA
+Blood,UBERON_0000178,Normal,Normal cell,B cell,CL_0000236,CD19,CD19,930,CD19,P15391,Experiment,21149806,NA
+Lymph node,UBERON_0000029,Normal,Normal cell,B cell Lymph node,CL_0000236,"CD19, CD27, IgM","CD19, CD27, CD40LG","930, 939, 959","CD19, CD27, CD40L","P15391, P26842, P29965",Experiment,28851380,NA
+Lymph node,UBERON_0000029,Normal,Normal cell,B cell Lymph node,CL_0000236,"BOB-1, Oct-2, PAX5","POU2AF1, POU2F2, PAX5","5450, 5452, 5079","OBF1, PO2F2, PAX5","Q16633, P09086, Q02548",Experiment,22324490,NA
+Lymph node,UBERON_0000029,Normal,Normal cell,B cell Lymph node,CL_0000236,"CD20, CD23","MS4A1, FCER2","931, 2208","CD20, FCER2","P11836, P06734",Experiment,18568347,NA
+Lymph node,UBERON_0000029,Normal,Normal cell,B cell Lymph node,CL_0000236,CD20,MS4A1,931,CD20,P11836,Experiment,15390188,NA
+Lymph node,UBERON_0000029,Normal,Normal cell,B cell Lymph node,CL_0000236,"CD21, CD23, CD32, CD80","CR2, FCER2, FCGR2A, FCGR2B, FCGR2C, CD80","1380, 2208, 2212, 2213, 9103, 941","CR2, FCER2, FCG2A, FCG2B, FCG2C, CD80","P20023, P06734, P12318, P31994, P31995, P33681",Experiment,15351991,NA
+Lymph node,UBERON_0000029,Normal,Normal cell,B cell Lymph node,CL_0000236,"CD19, CD21","CD19, CR2","930, 1380","CD19, CR2","P15391, P20023",Experiment,11777535,NA
+Lymph node,UBERON_0000029,Normal,Normal cell,B cell Lymph node,CL_0000236,CD20,MS4A1,931,CD20,P11836,Experiment,8750633,NA
+Peripheral blood,UBERON_0005408,Normal,Normal cell,B cell,CL_0000236,"CD19, CD27, CD38, CD45, IgD, ZAP70","CD19, CD27, CD38, PTPRC, IgD family, ZAP70","930, 939, 952, 5788, IgD family, 7535","CD19, CD27, CD38, PTPRC, IgD family, ZAP70","P15391, P26842, P28907, P08575, IgD family, P43403",Experiment,25187226,NA
+Peripheral blood,UBERON_0005408,Normal,Normal cell,B cell,CL_0000236,"CD19, CD20, CD21, CD24, CD27, CD38, CD45, CD5, IgD, IgM","CD19, MS4A1, CR2, CD24, CD27, CD38, PTPRC, CD5, IgD family, CD40LG","930, 931, 1380, 100133941, 939, 952, 5788, 921, IgD family, 959","CD19, CD20, CR2, CD24, CD27, CD38, PTPRC, CD5, IgD family, CD40L","P15391, P11836, P20023, P25063, P26842, P28907, P08575, P06127, IgD family, P29965",Experiment,25799053,NA
+Peripheral blood,UBERON_0005408,Normal,Normal cell,B cell,CL_0000236,"CD19, CD27, IgM","CD19, CD27, CD40LG","930, 939, 959","CD19, CD27, CD40L","P15391, P26842, P29965",Experiment,21278234,NA
+Peripheral blood,UBERON_0005408,Normal,Normal cell,B cell,CL_0000236,Leu-12,CD19,930,CD19,P15391,Experiment,11193739,NA
+Peripheral blood,UBERON_0005408,Normal,Normal cell,B cell,CL_0000236,CD19,CD19,930,CD19,P15391,Experiment,27867036,NA
+Peripheral blood,UBERON_0005408,Normal,Normal cell,B cell,CL_0000236,CD74,CD74,972,HG2A,P04233,Experiment,28263960,NA
+Peripheral blood,UBERON_0005408,Normal,Normal cell,B cell,CL_0000236,CD19,CD19,930,CD19,P15391,Experiment,27018867,NA
+Peripheral blood,UBERON_0005408,Normal,Normal cell,B cell,CL_0000236,"BLNK, CD19, CD79A, CD79B, MS4A1","BLNK, CD19, CD79A, CD79B, MS4A1","29760, 930, 973, 974, 931","BLNK, CD19, CD79A, CD79B, CD20","Q8WV28, P15391, P11912, P40259, P11836",Single-cell sequencing,29230012,NA
+Peripheral blood,UBERON_0005408,Normal,Normal cell,B cell,CL_0000236,"CD37, CD79A","CD37, CD79A","951, 973","CD37, CD79A","P11049, P11912",Single-cell sequencing,29361178,NA
+Undefined,NA,Normal,Normal cell,B cell,CL_0000236,CD150,SLAMF1,6504,SLAF1,Q13291,Experiment,25170899,NA
+Undefined,NA,Normal,Normal cell,B cell,CL_0000236,FMC7,MS4A1,931,CD20,P11836,Experiment,25170899,NA
+Undefined,NA,Normal,Normal cell,B cell,CL_0000236,"CD10, CD19","MME, CD19","4311, 930","NEP, CD19","P08473, P15391",Experiment,8162087,NA
+Undefined,NA,Normal,Normal cell,B cell,CL_0000236,CD20,MS4A1,931,CD20,P11836,Experiment,22484020,NA
+Undefined,NA,Normal,Normal cell,B cell,CL_0000236,MB2,MB2 family,MB2 family,MB2 family,MB2 family,Experiment,2281681,NA
+Undefined,NA,Normal,Normal cell,B cell,CL_0000236,"CD10, CD19","MME, CD19","4311, 930","NEP, CD19","P08473, P15391",Experiment,23901121,NA
+Undefined,NA,Normal,Normal cell,B cell,CL_0000236,PAX5,PAX5,5079,PAX5,Q02548,Experiment,12360049,NA
+Undefined,NA,Normal,Normal cell,Mast cell,CL_0000097,"CD117, CD203c","KIT, ENPP3","3815, 5169","KIT, ENPP3","P10721, O14638",Company,Company,biolegend
+Undefined,NA,Normal,Normal cell,Mast cell,CL_0000097,"CD117, CD203c, CD32, CD33","KIT, ENPP3, FCGR2A, FCGR2B, FCGR2C, CD33","3815, 5169, 2212, 2213, 9103, 945","KIT, ENPP3, FCG2A, FCG2B, FCG2C, CD33","P10721, O14638, P12318, P31994, P31995, P20138",Company,Company,abcam
+Undefined,NA,Normal,Normal cell,Mast cell,CL_0000097,"CD116, CD117, CD123, CD125, CD126, CD15, CD24, CD35, CD43, CD64, CD9, Fc-epsilon RI-alpha, IL-33R","CSF2RA, KIT, IL3RA, IL5RA, IL6R, FUT4, CD24, CR1, SPN, FCGR1A, CD9, FCER1A, NA","1438, 3815, 3563, 3568, 3570, 2526, 100133941, 1378, 6693, 2209, 928, 2205, NA","CSF2R, KIT, IL3RA, IL5RA, IL6RA, FUT4, CD24, CR1, LEUK, FCGR1, CD9, FCERA, NA","P15509, P10721, P26951, Q01344, P08887, P22083, P25063, P17927, P16150, P12314, P21926, P12319, NA",Company,Company,ebioscience
+Undefined,NA,Normal,Normal cell,Mast cell,CL_0000097,"CD117, CD203c, CD23, CD25, CD3, CD45, High affinity IgE receptor, IL-2","KIT, ENPP3, FCER2, IL2RA, CD3D, CD3E, CD3G, PTPRC, FCER1A, IL2","3815, 5169, 2208, 3559, 915, 916, 917, 5788, 2205, 3558","KIT, ENPP3, FCER2, IL2RA, CD3D, CD3E, CD3G, PTPRC, FCERA, IL2","P10721, O14638, P06734, P01589, P04234, P07766, P09693, P08575, P12319, P60568",Company,Company,labome
+Peripheral blood,UBERON_0005408,Normal,Normal cell,Macrophage,CL_0000235,CD14,CD14,929,CD14,P08571,Experiment,24631966,NA
+Peripheral blood,UBERON_0005408,Normal,Normal cell,Macrophage,CL_0000235,LYZ,LYZ,4069,LYSC,P61626,Experiment,28263960,NA
+Peripheral blood,UBERON_0005408,Normal,Normal cell,Macrophage,CL_0000235,"CD14, CD163, CD68, CSF1R, FCGR3A","CD14, CD163, CD68, CSF1R, FCGR3A","929, 9332, 968, 1436, 2214","CD14, C163A, CD68, CSF1R, FCG3A","P08571, Q86VB7, P34810, P07333, P08637",Single-cell sequencing,29230012,NA
+Undefined,NA,Normal,Normal cell,Endothelial cell,CL_0000115,CD209,CD209,30835,CD209,Q9NNX6,Experiment,25170899,NA
+Undefined,NA,Normal,Normal cell,Endothelial cell,CL_0000115,CD31,PECAM1,5175,PECA1,P16284,Experiment,25001945,NA
+Undefined,NA,Normal,Normal cell,Endothelial cell,CL_0000115,Endomucin,EMCN,51705,MUCEN,Q9ULC0,Experiment,11594763,NA
+Undefined,NA,Normal,Normal cell,Endothelial cell,CL_0000115,CD31,PECAM1,5175,PECA1,P16284,Experiment,2666561,NA
+Undefined,NA,Normal,Normal cell,Endothelial cell,CL_0000115,"CD31, CD34, PECAM1","PECAM1, CD34, PECAM1","5175, 947, 5175","PECA1, CD34, PECA1","P16284, P28906, P16284",Single-cell sequencing,27534536,NA
+Peripheral blood,UBERON_0005408,Normal,Normal cell,Myeloid-derived suppressor cell,CL_0000889,"CD11b, CD33, CD39","ITGAM, CD33, ENTPD1","3684, 945, 953","ITAM, CD33, ENTP1","P11215, P20138, P49961",Experiment,29108995,NA
+Peripheral blood,UBERON_0005408,Normal,Normal cell,Myeloid-derived suppressor cell,CL_0000889,"CD11b, CD11c, CD14, CD1d, CD220, CD226, CD24, CD244, CD328, CD33, CD39, CD42b, CD46, CD49a, CD49d, CD49e, CD49f, CD52, CD53, CD54, CD56, CD62L, CD62P, CD66a, CD66c, CD66e, CD69, CD71, CD81, CD84, CD85d, CD85h, CD85j, CD85k","ITGAM, ITGAX, CD14, CD1D, INSR, CD226, CD24, CD244, SIGLEC7, CD33, ENTPD1, GP1BA, CD46, ITGA1, ITGA4, ITGA5, ITGA6, CD52, CD53, ICAM1, NCAM1, SELL, SELP, CEACAM1, CEACAM6, CEACAM5, CD69, TFRC, CD81, CD84, LILRB2, LILRA2, LILRB1, LILRB4ITGAM","3684, 3687, 929, 912, 3643, 10666, 100133941, 51744, 27036, 945, 953, 2811, 4179, 3672, 3676, 3678, 3655, 1043, 963, 3383, 4684, 6402, 6403, 634, 4680, 1048, 969, 7037, 975, 8832, 10288, 11027, 10859, 11006","ITAM, ITAX, CD14, CD1D, INSR, CD226, CD24, CD244, SIGL7, CD33, ENTP1, GP1BA, MCP, ITA1, ITA4, ITA5, ITA6, CD52, CD53, ICAM1, NCAM1, LYAM1, LYAM3, CEAM1, CEAM6, CEAM5, CD69, TFR1, CD81, SLAF5, LIRB2, LIRA2, LIRB1, LIRB4","P11215, P20702, P08571, P15813, P06213, Q15762, P25063, Q9BZW8, Q9Y286, P20138, P49961, P07359, P15529, P56199, P13612, P08648, P23229, P31358, P19397, P05362, P13591, P14151, P16109, P13688, P40199, P06731, Q07108, P02786, P60033, Q9UIB8, Q8N423, Q8N149, Q8NHL6, Q8NHJ6",Experiment,29108995,NA
+B/Plasma cells_cell201801,,,,B/Plasma cell_cell201801,,,SLAMF7,,,,,,
+B/Plasma cells_cell201801,,,,B/Plasma cell_cell201801,,,CD79A,,,,,,
+B/Plasma cells_cell201801,,,,B/Plasma cell_cell201801,,,BLNK,,,,,,
+B/Plasma cells_cell201801,,,,B/Plasma cell_cell201801,,,FCRL5,,,,,,
+basal cells_profRen,,,,Basal cell_profRen,,,KRT1,,,,,,
+basal cells_profRen,,,,Basal cell_profRen,,,KRT5,,,,,,
+basal cells_profRen,,,,Basal cell_profRen,,,KRT6,,,,,,
+basal cells_profRen,,,,Basal cell_profRen,,,KRT10,,,,,,
+basal cells_profRen,,,,Basal cell_profRen,,,KRT14,,,,,,
+basal cells_profRen,,,,Basal cell_profRen,,,KRT72,,,,,,
+basal cells_profRen,,,,Basal cell_profRen,,,TP63,,,,,,
+Fibroblasts_cell201801,,,,Fibroblast_cell201801,,,FAP,,,,,,
+Fibroblasts_cell201801,,,,Fibroblast_cell201801,,,PDPN,,,,,,
+Fibroblasts_cell201801,,,,Fibroblast_cell201801,,,COL1A2,,,,,,
+Fibroblasts_cell201801,,,,Fibroblast_cell201801,,,DCN,,,,,,
+Fibroblasts_cell201801,,,,Fibroblast_cell201801,,,COL3A1,,,,,,
+Fibroblasts_cell201801,,,,Fibroblast_cell201801,,,COL6A1,,,,,,
+Dendritic cells_cell201801,,,,Dendritic cell_cell201801,,,CD40,,,,,,
+Dendritic cells_cell201801,,,,Dendritic cell_cell201801,,,CD80,,,,,,
+Dendritic cells_cell201801,,,,Dendritic cell_cell201801,,,CD83,,,,,,
+Dendritic cells_cell201801,,,,Dendritic cell_cell201801,,,CCR7,,,,,,
+T cells_cell201808,,,,T cell_cell201808,,,CD2,,,,,,
+T cells_cell201808,,,,T cell_cell201808,,,CD3D,,,,,,
+T cells_cell201808,,,,T cell_cell201808,,,CD3E,,,,,,
+T cells_cell201808,,,,T cell_cell201808,,,CD3G,,,,,,
+Mast cells_cell201808,,,,Mast cell_cell201808,,,ENPP3,,,,,,
+Mast cells_cell201808,,,,Mast cell_cell201808,,,KIT,,,,,,
+Mast cells_cell201801,,,,Mast cell_cell201801,,,CMA1,,,,,,
+Mast cells_cell201801,,,,Mast cell_cell201801,,,MS4A2,,,,,,
+Mast cells_cell201801,,,,Mast cell_cell201801,,,TPSAB1,,,,,,
+Mast cells_cell201801,,,,Mast cell_cell201801,,,TPSB2,,,,,,
+Endothelial cells_cell201801,,,,Endothelial cell_cell201801,,,PECAM1,,,,,,
+Endothelial cells_cell201801,,,,Endothelial cell_cell201801,,,VWF,,,,,,
+Endothelial cells_cell201801,,,,Endothelial cell_cell201801,,,ENG,,,,,,
+Myocytes_cell201801,,,,Myocyte_cell201801,,,ACTA1,,,,,,
+Myocytes_cell201801,,,,Myocyte_cell201801,,,ACTN2,,,,,,
+Myocytes_cell201801,,,,Myocyte_cell201801,,,MYL2,,,,,,
+Myocytes_cell201801,,,,Myocyte_cell201801,,,MYH2,,,,,,
+MDSCfunction_profRen,,,,MDSCfunction_profRen,,,ARG1,,,,,,
+MDSCfunction_profRen,,,,MDSCfunction_profRen,,,IL23A,,,,,,
+MDSCfunction_profRen,,,,MDSCfunction_profRen,,,pSTAT3?,,,,,,
+Fibroblasts_cell201801,,,,Fibroblast_cell201801,,,FAP,,,,,,
+Fibroblasts_cell201801,,,,Fibroblast_cell201801,,,PDPN,,,,,,
+Fibroblasts_cell201801,,,,Fibroblast_cell201801,,,COL1A2,,,,,,
+Fibroblasts_cell201801,,,,Fibroblast_cell201801,,,DCN,,,,,,
+Fibroblasts_cell201801,,,,Fibroblast_cell201801,,,COL3A1,,,,,,
+Fibroblasts_cell201801,,,,Fibroblast_cell201801,,,COL6A1,,,,,,
+Macrophages_cell201801,,,,Macrophage_cell201801,,,CD14,,,,,,
+Macrophages_cell201801,,,,Macrophage_cell201801,,,CD163,,,,,,
+Macrophages_cell201801,,,,Macrophage_cell201801,,,CD68,,,,,,
+Macrophages_cell201801,,,,Macrophage_cell201801,,,FCGR2A,,,,,,
+Macrophages_cell201801,,,,Macrophage_cell201801,,,CSF1R,,,,,,
+Dendritic cells_cell201801,,,,Dendritic cell_cell201801,,,CD40,,,,,,
+Dendritic cells_cell201801,,,,Dendritic cell_cell201801,,,CD80,,,,,,
+Dendritic cells_cell201801,,,,Dendritic cell_cell201801,,,CD83,,,,,,
+Dendritic cells_cell201801,,,,Dendritic cell_cell201801,,,CCR7,,,,,,
+Mast cells_cell201801,,,,Mast cell_cell201801,,,CMA1,,,,,,
+Mast cells_cell201801,,,,Mast cell_cell201801,,,MS4A2,,,,,,
+Mast cells_cell201801,,,,Mast cell_cell201801,,,TPSAB1,,,,,,
+Mast cells_cell201801,,,,Mast cell_cell201801,,,TPSB2,,,,,,
+Endothelial cells_cell201801,,,,Endothelial cell_cell201801,,,PECAM1,,,,,,
+Endothelial cells_cell201801,,,,Endothelial cell_cell201801,,,VWF,,,,,,
+Endothelial cells_cell201801,,,,Endothelial cell_cell201801,,,ENG,,,,,,
+B/Plasma cells_cell201801,,,,B/Plasma cell_cell201801,,,SLAMF7,,,,,,
+B/Plasma cells_cell201801,,,,B/Plasma cell_cell201801,,,CD79A,,,,,,
+B/Plasma cells_cell201801,,,,B/Plasma cell_cell201801,,,BLNK,,,,,,
+B/Plasma cells_cell201801,,,,B/Plasma cell_cell201801,,,FCRL5,,,,,,
+Blood,,,,Neutrophil,,,"CD10, CD114, CD11b, CD11c, CD13, CD14, CD15, CD16, CD31, CD32, CD33, CD62L, CD64, CD66b, CD88, CXCR1, CXCR2, JAML, TLR2",,,,,,
+Peripheral blood,,,,Neutrophil,,,"CD11b, CD15, CD16, CD49d, CD66b",,,,,,
+Undefined,,,,Neutrophil,,,"CD11b, CD16, CD18, CD32, CD44, CD55",,,,,,
+Undefined,,,,Neutrophil,,,"S100A8, S100A9, CD10, CD112, CD114, CD116, CD15, CD157, CD17, CD177, CD181, CD24, CD281, CD282, CD284, CD286, CD289, CD35, CD43, CD66a, CD66b, CD66c, CD66d, CD89, CD93",,,,,,
+BladderEpithelial_nc202010,,,,BladderEpithelial_nc202010,,,EPCAM,,,,,,
