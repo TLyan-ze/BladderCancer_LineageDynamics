@@ -1,0 +1,62 @@
+
+#
+# # samples to condition
+units: /datapool/yanzeqin/project/ZDW/Script/config/sample_now.tsv
+#units: /datapool/zhuguanghui/multi.omics/yanzeqin/FFPE/FFFPE2/Script/config/temp2
+#units: /datapool/zhuguanghui/multi.omics/yanzeqin/FFPE/FFFPE2/Script/config/temp_07
+
+
+output:
+  relative: "/datapool/yanzeqin/project/ZDW"
+  fastp: "step1_fastp"
+  bwa: "step2_bwa"
+  dup: "step3_MarkDuplicates"
+  mutect2_pon: "step4_pon"
+  mutect2withpon: "step5_mutect2withpon"
+  GetPileupSummaries: "step6_GetPileupSummaries"
+  FilterMutect2WithPON: "step7_FilterMutect2WithPON"
+  FREEC: "step8_FREEC"
+  GISTIC: "step9_GISTIC"
+  cnvkit_GISTIC: "cnvkit_GISTIC"
+  manta: "step10_manta"
+  sequenza: "Bam_Sequenza"
+  svaba: "Bam_SVaba"
+  strelka: "Bam_Strelka"
+  AnnotSV: "SV_AnnotSV"
+  GermlineSNPs: "Bam_GATKGermlineSNPs"
+  GermlineSNPs_db: "GermlineSNPs_db"
+  GermlineSNPs_db2: "GermlineSNPs_result"
+  cnvkit: "cnvkit"
+  kraken: "kraken"
+  AA_cnvkit: "AA_cnvkit"
+  AmpliconArchitect: "AmpliconArchitect"
+  AmpliconArchitect2: "AmpliconArchitect2"
+softwares:
+  fastp: "/share/Data01/yanzeqin/software/snakemake/conda/envs/fastp/bin/fastp"
+  seqkit: "/share/Data01/yanzeqin/software/snakemake/conda/envs/fastp/bin/seqkit"
+  bowtie: "/share/Data01/yanzeqin/software/snakemake/conda/envs/bowtie/bin/bowtie"
+  samtools: "/share/Data01/yanzeqin/software/snakemake/conda/envs/fastp/bin/samtools"
+  gatk: ""
+
+databases:
+  Human: "/"
+  pon: /datapool/zhuguanghui/multi.omics/stLFR/Mutect2PON/mutect2_pon.vcf
+  GRCh38: "/share/database/openData/GRCh38_GENCODE/GRCh38.primary_assembly.genome.fa"
+  dbSNP: /share/database/openData/dbSNP/b154/VCF/GCF_000001405.38_GENCODEchrName.vcf.gz
+  G1000: /share/database/openData/1000G/1000_genomes_project/release/20190312_biallelic_SNV_and_INDEL/ALL.wgs.shapeit2_integrated_snvindels_v2a.GRCh38.27022019.sites_GENCODEchrName.vcf.gz
+  ClinVar: /share/database/openData/ClinVar/vcf_GRCh38/clinvar_20201226_GENCODEchrName.vcf.gz
+  COSMIC1: /share/database/openData/COSMIC/v92/CosmicCodingMuts.normal_GENCODEchrName.vcf.gz
+  COSMIC2: /share/database/openData/COSMIC/v92/CosmicNonCodingVariants.normal_GENCODEchrName.vcf.gz
+  GnomdAD_AF: /share/database/openData/GATK_BestPracticesResource/somatic-hg38/af-only-gnomad.hg38.subset.vcf.gz
+  Intervals: /share/database/openData/GRCh38_GENCODE/GRCh38.primary_assembly.genome.interval_list
+  intervals: /datapool/zhuguanghui/multi.omics/stLFR/GRCh38_GENCODE/GRCh38.primary_assembly.genome.CommonChr.interval_list
+fastp:
+  f_adapter: "AGTCGGAGGCCAAGCGGTCTTAGGAAGACAA"
+  r_adapter: "GAACGACATGGCTACGATCCGACTT"
+  q: 20 #碱基质量值不小于20，该碱基为合格碱基
+  u: 10 #允许不合格碱基的占比为10
+  n: 1 # 过滤N碱基过多的reads，如果N碱基含量大于2，这条read/pair将被舍弃
+  length_required: 15 #长度的最短限制
+  length_limit: 40 #长度的最大限制
+  threads: 4
+

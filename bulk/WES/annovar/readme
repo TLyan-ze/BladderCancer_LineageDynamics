@@ -1,0 +1,3 @@
+perl /datapool/yanzeqin/software/annovar/convert2annovar.pl -format vcf4old /share/service08/yanzeqin/ZDW/mutect2/NMI_MGH_Filtered.vcf > NMI_MGH.annovari
+
+perl  /datapool/yanzeqin/software/annovar/table_annovar.pl NMI_MGH.annovar  /datapool/yanzeqin/software/annovar/humandbhg38_annovar/  -buildver hg38 -out NMI_MGH   -remove -protocol refGene -operation g -nastring . -polish -otherinfo

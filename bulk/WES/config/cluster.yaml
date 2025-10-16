@@ -1,0 +1,306 @@
+#!/usr/bin/python
+__default__:
+  queue: "all_el6.q"
+  workdir: "./"
+  p: ""
+  mem: "4G"
+  cores: 2
+
+get:
+  mem: "4G"
+  cores: 2
+  output: "logs/{rule}.{wildcards.sample}.o"
+  error: "logs/{rule}.{wildcards.sample}.e"
+
+fastp:
+  mem: "10G"
+  cores: 4
+  output: "logs/{rule}.{wildcards.sample}.o"
+  error: "logs/{rule}.{wildcards.sample}.e"
+
+BWA:
+  mem: "100G"
+  cores: 8
+  output: "logs/{rule}.{wildcards.sample}.0"
+  error: "logs/{rule}.{wildcards.sample}.e"
+
+MarkDuplicates_T:
+  mem: "100G"
+  cores: 10
+  output: "logs/{rule}.{wildcards.sample}.o"
+  error: "logs/{rule}.{wildcards.sample}.e"
+
+BQSR_T:
+  mem: "20G"
+  cores: 4
+  output: "logs/{rule}.{wildcards.sample}.o"
+  error: "logs/{rule}.{wildcards.sample}.e"
+
+ApplyBQSR_T:
+  mem: "64G"
+  cores: 8
+  output: "logs/{rule}.{wildcards.sample}.o"
+  error: "logs/{rule}.{wildcards.sample}.e"
+
+
+fastp_N:
+  mem: "20G"
+  cores: 4
+  output: "logs/{rule}.{wildcards.sample}.o"
+  error: "logs/{rule}.{wildcards.sample}.e"
+
+BWA_N:
+  mem: "100G"
+  cores: 8
+  output: "logs/{rule}.{wildcards.sample}.0"
+  error: "logs/{rule}.{wildcards.sample}.e"
+
+MarkDuplicates_N:
+  queue: "supermem.q"
+  mem: "300G"
+  cores: 10
+  output: "logs/{rule}.{wildcards.sample}.o"
+  error: "logs/{rule}.{wildcards.sample}.e"
+
+BQSR_N:
+  mem: "20G"
+  cores: 4
+  output: "logs/{rule}.{wildcards.sample}.o"
+  error: "logs/{rule}.{wildcards.sample}.e"
+
+ApplyBQSR_N:
+  mem: "64G"
+  cores: 8
+  output: "logs/{rule}.{wildcards.sample}.o"
+  error: "logs/{rule}.{wildcards.sample}.e"
+
+
+Mutect2_Normal:
+  mem: "20G"
+  cores: 4
+  output: "logs/{rule}.{wildcards.sample}.o"
+  error: "logs/{rule}.{wildcards.sample}.e"
+
+GenomicsDBImport:
+  mem: "20G"
+  cores: 4
+  output: "logs/{rule}.{wildcards.sample}.0"
+  error: "logs/{rule}.{wildcards.sample}.e"
+
+CreateSomaticPanelOfNormals:
+  mem: "20G"
+  cores: 4
+  output: "logs/{rule}.{wildcards.sample}.o"
+  error: "logs/{rule}.{wildcards.sample}.e"
+
+Mutect2WithPON:
+  mem: "20G"
+  cores: 4
+  output: "logs/{rule}.{wildcards.sample}.o"
+  error: "logs/{rule}.{wildcards.sample}.e"
+
+GetPileupSummaries:
+  mem: "20G"
+  cores: 4
+  output: "logs/{rule}.{wildcards.sample}.o"
+  error: "logs/{rule}.{wildcards.sample}.e"
+
+FilterMutect2WithPON:
+  mem: "20G"
+  cores: 4
+  output: "logs/{rule}.{wildcards.sample}.o"
+  error: "logs/{rule}.{wildcards.sample}.e"
+
+
+CalculateContamination:
+  mem: "4G"
+  cores: 2
+  output: "logs/{rule}.{wildcards.sample}.0"
+  error: "logs/{rule}.{wildcards.sample}.e"
+
+freec_config:
+  mem: "4G"
+  cores: 2
+  output: "logs/{rule}.{wildcards.sample}.0"
+  error: "logs/{rule}.{wildcards.sample}.e"
+
+freec:
+  mem: "8G"
+  cores: 4
+  output: "logs/{rule}.{wildcards.sample}.0"
+  error: "logs/{rule}.{wildcards.sample}.e"
+
+cnv_bed:
+  mem: "4G"
+  cores: 2
+  output: "logs/{rule}.{wildcards.sample}.0"
+  error: "logs/{rule}.{wildcards.sample}.e"
+
+
+GISTIC_Seg:
+  mem: "4G"
+  cores: 2
+  output: "logs/{rule}.{wildcards.sample}.0"
+  error: "logs/{rule}.{wildcards.sample}.e"
+
+
+GISTIC:
+  mem: "20G"
+  cores: 4
+  output: "logs/{rule}.{wildcards.sample}.0"
+  error: "logs/{rule}.{wildcards.sample}.e"
+
+cnvkit_seg:
+  mem: "4G"
+  cores: 2
+  output: "logs/{rule}.{wildcards.sample}.0"
+  error: "logs/{rule}.{wildcards.sample}.e"
+
+cnvkit_GISTIC:
+  mem: "20G"
+  cores: 4
+  output: "logs/{rule}.{wildcards.sample}.0"
+  error: "logs/{rule}.{wildcards.sample}.e"
+
+featureCounts:
+  mem: "4G"
+  cores: 2
+  output: "logs/{rule}.{wildcards.sample}.0"
+  error: "logs/{rule}.{wildcards.sample}.e"
+
+manta:
+  mem: "4G"
+  cores: 2
+  output: "logs/{rule}.{wildcards.sample}.o"
+  error: "logs/{rule}.{wildcards.sample}.e"
+
+sequenza:
+  mem: "4G"
+  cores: 2
+  output: "logs/{rule}.{wildcards.sample}.o"
+  error: "logs/{rule}.{wildcards.sample}.e"
+
+salmon_quant:
+  mem: "20G"
+  cores: 4
+  output: "logs/{rule}.{wildcards.sample}.o"
+  error: "logs/{rule}.{wildcards.sample}.e"
+
+sequenza2:
+  mem: "20G"
+  cores: 4
+  output: "logs/{rule}.{wildcards.sample}.o"
+  error: "logs/{rule}.{wildcards.sample}.e"
+
+svaba:
+  mem: "8G"
+  cores: 4
+  output: "logs/{rule}.{wildcards.sample}.o"
+  error: "logs/{rule}.{wildcards.sample}.e"
+
+strelka:
+  mem: "8G"
+  cores: 4
+  output: "logs/{rule}.{wildcards.sample}.o"
+  error: "logs/{rule}.{wildcards.sample}.e"
+
+AnnotSV_manta:
+  mem: "2G"
+  cores: 1
+  output: "logs/{rule}.{wildcards.sample}.o"
+  error: "logs/{rule}.{wildcards.sample}.e"
+
+AnnotSV_svaba:
+  mem: "2G"
+  cores: 1
+  output: "logs/{rule}.{wildcards.sample}.o"
+  error: "logs/{rule}.{wildcards.sample}.e"
+
+GATK_GermlineSNPs:
+  mem: "80G"
+  cores: 16
+  output: "logs/{rule}.{wildcards.sample}.o"
+  error: "logs/{rule}.{wildcards.sample}.e"
+
+germlineSNPs_DB1:
+  mem: "20G"
+  cores: 4
+  output: "logs/{rule}.{wildcards.sample}.o"
+  error: "logs/{rule}.{wildcards.sample}.e"
+
+GenotypeGVCFs:
+  mem: "20G"
+  cores: 4
+  output: "logs/{rule}.{wildcards.sample}.o"
+  error: "logs/{rule}.{wildcards.sample}.e"
+
+VariantFiltration:
+  mem: "20G"
+  cores: 4
+  output: "logs/{rule}.{wildcards.sample}.o"
+  error: "logs/{rule}.{wildcards.sample}.e"
+
+
+cnvkit:
+  queue: "all_el7.q"
+  mem: "20G"
+  cores: 4
+  output: "logs/{rule}.{wildcards.sample}.o"
+  error: "logs/{rule}.{wildcards.sample}.e"
+
+AA_cnvkit:
+  mem: "40G"
+  queue: "all_el7.q"
+  cores: 8
+  output: "logs/{rule}.{wildcards.sample}.o"
+  error: "logs/{rule}.{wildcards.sample}.e"
+
+AmpliconArchitect1:
+  mem: "10G"
+  queue: "all_el7.q"
+  cores: 4
+  output: "logs/{rule}.{wildcards.sample}.o"
+  error: "logs/{rule}.{wildcards.sample}.e"
+
+AmpliconArchitect2:
+  mem: "40G"
+  queue: "all_el7.q"
+  cores: 8
+  output: "logs/{rule}.{wildcards.sample}.o"
+  error: "logs/{rule}.{wildcards.sample}.e"
+
+karken2_fastp:
+  mem: "20G"
+  cores: 4
+  output: "logs/{rule}.{wildcards.sample}.o"
+  error: "logs/{rule}.{wildcards.sample}.e"
+
+karken:
+  mem: "100G"
+  queue: "all_el7.q"
+  cores: 8
+  output: "logs/{rule}.{wildcards.sample}.o"
+  error: "logs/{rule}.{wildcards.sample}.e"
+
+
+karken2_fastp2:
+  mem: "20G"
+  cores: 4
+  output: "logs/{rule}.{wildcards.sample}.o"
+  error: "logs/{rule}.{wildcards.sample}.e"
+
+karken2:
+  mem: "80G"
+  queue: "all_el7.q"
+  cores: 8
+  output: "logs/{rule}.{wildcards.sample}.o"
+  error: "logs/{rule}.{wildcards.sample}.e"
+
+
+GATK_GermlineSNPs2:
+  mem: "80G"
+  cores: 16
+  output: "logs/{rule}.{wildcards.sample}.o"
+  error: "logs/{rule}.{wildcards.sample}.e"
+
+
