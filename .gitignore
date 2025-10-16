@@ -23,3 +23,24 @@ results/
 *.tmp
 *.cache
 .DS_Store
+
+# Large data files (>50MB)
+*_distance_matrix.tsv
+*_edit_distance_matrix.tsv
+*_phylogenetic_distance_matrix.tsv
+
+# Large data directories
+*/data/*.tsv
+*/Figure*/data/
+lineage/downstream/Figure/Figure5_S5/data/
+
+# Other large files
+*.h5ad
+*.rds
+*.hdf5
+*.zarr
+
+# Temporary files
+nohup.out
+*.log
+*.tmp
