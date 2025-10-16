@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains the computational analysis code for the research paper "Recurrence in the chemotherapy regimen of bladder carcinoma originates from quiescent epidermoid-like cells" published in Nature Communications.
+This repository contains the computational analysis code for the research paper "Recurrence in the chemotherapy regimen of bladder carcinoma originates from quiescent epidermoid-like cells" .
 
 ## Abstract
 
@@ -82,7 +82,7 @@ The study includes samples from:
 If you use this code, please cite:
 
 ```
-Zhou, D., Li, Y., Yan, Z. et al. Recurrence in the chemotherapy regimen of bladder carcinoma originates from quiescent epidermoid-like cells. Nat Commun (2024).
+Zhou, D., Li, Y., Yan, Z. et al. Recurrence in the chemotherapy regimen of bladder carcinoma originates from quiescent epidermoid-like cells. Under review.
 ```
 
 ## Contact
