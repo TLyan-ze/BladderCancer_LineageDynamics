@@ -34,13 +34,55 @@ results/
 */Figure*/data/
 lineage/downstream/Figure/Figure5_S5/data/
 
+# Bulk RNA-seq results (large quantification files)
+bulk/RNA/result/
+*_quant.sf
+*.sf
+
 # Other large files
 *.h5ad
 *.rds
 *.hdf5
 *.zarr
+*.h5
+*.loom
 
 # Temporary files
 nohup.out
 *.log
 *.tmp
+*.out
+
+# Git objects and large files
+.git/objects/
+
+# Analysis results that can be regenerated
+results/
+output/
+*/results/
+*/output/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# R files
+.Rhistory
+.RData
+.Rproj.user/
+
+# Large image files
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+
+# Compressed files
+*.zip
+*.tar.gz
+*.gz
