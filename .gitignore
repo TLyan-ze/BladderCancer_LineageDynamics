@@ -86,3 +86,10 @@ __pycache__/
 *.zip
 *.tar.gz
 *.gz
+
+# Processed data submission (temp - not for github)
+temp/
+processed_data/
+docs/PROCESSED_DATA_PLAN.md
+docs/GEO_SUBMISSION_GUIDE.md
+docs/EDITOR_RESPONSE_GUIDE.md
