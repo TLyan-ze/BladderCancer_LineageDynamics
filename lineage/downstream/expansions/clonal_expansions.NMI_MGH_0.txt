@@ -1,0 +1,1 @@
+	SubProp	TotalProp	Probability	LeavesInExpansion	TotalLeaves
