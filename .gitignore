@@ -93,3 +93,31 @@ processed_data/
 docs/PROCESSED_DATA_PLAN.md
 docs/GEO_SUBMISSION_GUIDE.md
 docs/EDITOR_RESPONSE_GUIDE.md
+
+# Lineage analysis temporary outputs
+lineage/downstream/raw/
+lineage/downstream/trees/
+lineage/downstream/fitness/
+lineage/downstream/expansions/
+lineage/downstream/clean/
+lineage/downstream/tree_reconstruction/
+lineage/downstream/scripts/
+lineage/downstream/nohup.out
+lineage/downstream/*.txt
+lineage/downstream/*.sh
+lineage/downstream/*.csv
+lineage/downstream/*.tsv
+
+# Exclude specific large data files but keep analysis scripts
+lineage/downstream/AP.alleleTable.unfiltered.txt*
+lineage/downstream/AP_info.csv
+lineage/downstream/cellBC_count.tsv
+lineage/downstream/mete.csv
+lineage/downstream/tumor_list.txt*
+lineage/downstream/tumor_statistics.tsv
+lineage/downstream/sample_id
+
+# scATAC temporary outputs
+sc_multiomics/scATAC/*.csv
+sc_multiomics/scATAC/readme
+sc_multiomics/scATAC/run_scATAC.sh
